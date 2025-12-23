@@ -214,4 +214,8 @@ TUPLE CONCATENATION
  - creates a new tuple
  - original tuples remain unchanged
  - cannot use += on tuple variable (creates new tuple)
+
+
+ LIST CONCATENATION AND TUPLE CONCATENATION
+  - list1=list1+list2
 """
