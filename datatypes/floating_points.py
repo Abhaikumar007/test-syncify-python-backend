@@ -16,7 +16,7 @@ pi=3.1455345
 print(round(pi)) #3
 print(round(pi,2)) #3.14
 print(round(pi,3)) #3.145
-
+print(round(2.54))# 3
 #example floating point precision issue
 print(0.1+0.2) #0.3000000004(small percision error)
 print(round(0.1+0.2,2)) #0.3
