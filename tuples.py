@@ -201,12 +201,16 @@ print("\n original tuple: ",immutable_tuple)
 
 """
 tuple_with_list=(1,2,[3,4,5])
+print("\n tuple with list inside:",tuple_with_list)
+tuple_with_list[2].append(6)
 
-
+tuple_with_list[2][0]=999
+print("After modifying list inside tuple",tuple_with_list)
 #HOMEWORK
 #all built in methods of that idea of tuple_with_list
 #WHAT ARE THE ASSIGNMENT OPERATORS..
-""
+# @once you change the tuple address but it does not change the value at t..what will happend
+
 
 """
 TUPLE CONCATENATION
@@ -217,5 +221,19 @@ TUPLE CONCATENATION
 
 
  LIST CONCATENATION AND TUPLE CONCATENATION
+  - for computer it has an address
   - list1=list1+list2
 """
+
+
+#Multiple concatenation
+tuple3=(7,8)
+
+combined=tuple1+tuple2+tuple3
+print("combining three tuples",combied)
+tuple_x=(1,2)
+print("original tuple_x",tuple_x)
+tuple_x+=(3,4)
+print("After tuple x+=(3,4)",tuple_x)
+print("ID of new tuple_x (differmt)",id(tuple_x))
+print("Note: +=creates a new tuple doesn't modify original")
