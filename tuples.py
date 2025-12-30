@@ -832,4 +832,3 @@ print(f"Host: {host}, Port: {port}, DB: {db_name}, User: {user}")
 print("Configuration is protected from accidental changes")
 
 #==================================================================================
-# END
