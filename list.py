@@ -77,9 +77,10 @@ BUCKETS
     - add element in list
         (insert(index,value), append()- adds at the end) .extend() -> used to add two lists
     - removing elements from list
-        (remove(value) , pop() removes and returns the last element, and also pop(index) removes the element at index and return it
-        .clear() method used to remove every item.or empty the list,) del will just remove the list from the memory itself     - length of the list
+        - (remove(value) , pop() removes and returns the last element, and also pop(index) removes the element at index and return it
+        -.clear() method used to remove every item.or empty the list,) del will just remove the list from the memory itself     - length of the list
         len() returns number of elements in the list
+        - del del student[1]
     - sorting list
             sort() in ascending order
             sort(reverse=True) #descending order
