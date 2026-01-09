@@ -586,7 +586,7 @@ NOTES:
 - items() - returns all key-value pairs as tuples
 - get() - safely access value
 - update() - merge dictionaries
-- setdefault() - get value or set default if key doesn't exist
+# - setdefault() - get value or set default if key doesn't exist
 - copy() - create shallow copy
 """
 

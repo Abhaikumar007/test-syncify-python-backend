@@ -230,7 +230,7 @@ TUPLE CONCATENATION
 tuple3=(7,8)
 
 combined=tuple1+tuple2+tuple3
-print("combining three tuples",combied)
+print("combining three tuples",combined)
 tuple_x=(1,2)
 print("original tuple_x",tuple_x)
 tuple_x+=(3,4)
